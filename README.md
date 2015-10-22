@@ -19,14 +19,14 @@ http://fir.im/kyzs
 
 ## 效果截图
 
-![Demo Screenshot 1][(https://github.com/threezj/KyZs/art/1.jpg]
+![Demo Screenshot 1](https://github.com/threezj/KyZs/blob/master/art/1.jpg)
 
-![Demo Screenshot 1][(https://github.com/threezj/KyZs/art/2.jpg]
+![Demo Screenshot 1](https://github.com/threezj/KyZs/blob/master/art/2.jpg)
 
-![Demo Screenshot 1][(https://github.com/threezj/KyZs/art/3.jpg]
+![Demo Screenshot 1](https://github.com/threezj/KyZs/blob/master/art/3.jpg)
 
-![Demo Screenshot 1][(https://github.com/threezj/KyZs/art/4.jpg]
+![Demo Screenshot 1](https://github.com/threezj/KyZs/blob/master/art/4.jpg)
 
-![Demo Screenshot 1][(https://github.com/threezj/KyZs/art/5.jpg]
+![Demo Screenshot 1](https://github.com/threezj/KyZs/blob/master/art/5.jpg)
 
-![Demo Screenshot 1][(https://github.com/threezj/KyZs/art/6.jpg]
+![Demo Screenshot 1](https://github.com/threezj/KyZs/blob/master/art/6.jpg)
