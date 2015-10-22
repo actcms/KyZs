@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="28sp"
+            android:padding="32dp"
+            android:textColor="#db4437"
+            android:text="科院校园通"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:hint="学号"
+        android:maxLength="15"
+        android:id="@+id/loginid_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:maxLength="30"
+        android:hint="密码"
+        android:id="@+id/loginpswd_et"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:hint="验证码"
+            android:maxLength="15"
+            android:id="@+id/safecode_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            />
+        <ImageView
+            android:id="@+id/codeimg"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <Button
+        android:text="获取验证码"
+        android:textColor="#ffffff"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_lightred_red"
+        android:id="@+id/safecode_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="登录"
+        android:textColor="#ffffff"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_lightred_red"
+        android:id="@+id/login_ok_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/login_help_tv"
+        android:clickable="true"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textSize="14sp"
+        android:textColor="#db4437"
+        android:text="科院助手"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

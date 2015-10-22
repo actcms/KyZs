@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/school_course"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/school_course" />
+        <item
+            android:id="@+id/school_news"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/school_news" />
+        <item
+            android:id="@+id/school_score"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/school_score" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/about" />
+    </group>
+</menu>

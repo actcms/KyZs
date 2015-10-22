@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">科院助手</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="school_news">学院要闻</string>
+    <string name="school_course">学院课表</string>
+    <string name="school_score">积点查询</string>
+    <string name="about">关于我</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="q_0">0、我是谁?</string>
+    <string name="a_0">我是科院14软工2班的学生,这个app由我个人独立开发.如果你在使用过程中遇到任何问题都可以来找我qq:27602942,微信号:billthree</string>
+    <string name="q_1">1、关于账户安全?</string>
+    <string name="a_1">我并没有以任何方式保存你的账号，账户信息是保存在你本地的，删除了app以后就没有了</string>
+    <string name="q_2">2、关于IOS版?</string>
+    <string name="a_2">未来也许可能大概会有</string>
+    <string name="q_3">3、关于未来?</string>
+    <string name="a_3">现在功能还很简陋,仅仅提供查课表,查积点以及科院人新闻浏览，后续会不断扩充，如果你有一些好的建议也可以联系我</string>
+
+    <string name="vewsion">科院助手 Version 1.0 beta</string>
+    <string name="header">科院校园通</string>
+
+    <string name="all_tv" >你的总积点分为:</string>
+</resources>
