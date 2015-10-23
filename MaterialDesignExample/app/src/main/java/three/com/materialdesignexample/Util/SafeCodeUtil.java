@@ -43,10 +43,11 @@ public class SafeCodeUtil {
 
     public static Bitmap getSafeCodePic(){
         try {
-
+            Log.d("TAG","getpic");
             //******** 取得的是InputStream，直接从InputStream生成bitmap ***********/
             codeBitmap = BitmapFactory.decodeStream(getImageStream());
             if (codeBitmap != null) {
+                Log.d("TAG",codeBitmap.toString());
                 return codeBitmap;
             }
         } catch (Exception e) {
@@ -64,11 +65,13 @@ public class SafeCodeUtil {
         getMethod.setHeader("Cookie",cookie.toString());
         getMethod.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36");
         getMethod.setHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
-
+        Log.d("TAG",cookie.toString());
         try {
             HttpResponse response = httpClient.execute(getMethod, new BasicHttpContext());
+            Thread.sleep(1000);
             HttpEntity entity = response.getEntity();
             InputStream instream = entity.getContent();
+            Log.d("TAG",instream.toString());
             return instream;
         } finally {
 
@@ -108,6 +111,7 @@ public class SafeCodeUtil {
                     cookie.append(";LOGINID=");
                     cookie.append(cookies.get(1).getValue());
                     HttpUtil.cookie=cookie.toString();
+                    callBack.onStart();
                 }
                 else {
                     callBack.onFinsh(null);

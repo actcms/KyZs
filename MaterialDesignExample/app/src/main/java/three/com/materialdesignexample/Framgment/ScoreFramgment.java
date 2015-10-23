@@ -112,7 +112,7 @@ public class ScoreFramgment extends Fragment {
     public  void showProgressDialog() {
         if (progressDialog == null) {
             progressDialog = new ProgressDialog(getActivity());
-            progressDialog.setMessage("正在加载...");
+            progressDialog.setMessage("正在导入，这可能需要一点时间...");
             progressDialog.setCanceledOnTouchOutside(false);
         }
         progressDialog.show();

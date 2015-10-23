@@ -23,4 +23,6 @@
     <string name="header">科院校园通</string>
 
     <string name="all_tv" >你的总积点分为:</string>
+
+    <string name="tip" >登陆时请确保校园网环境下登陆，验证码不能连续获取两次以上</string>
 </resources>
